@@ -1,2 +1,5 @@
-order deny,allow
 deny from all
+
+<Files ~ "gitprep\.cgi">
+allow from all
+</Files>
